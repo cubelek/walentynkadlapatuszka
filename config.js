@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "będziesz moją walentynka? 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,35 +22,35 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "Yes, you idiot"           // Secret hover message
+            text: "Lubisz mnie?",                                    // First interaction
+            yesBtn: "tak",                                             // Text for "Yes" button
+            noBtn: "nie",                                               // Text for "No" button
+            secretAnswer: "Tak debilu"           // Secret hover message
         },
         second: {
-            text: "Oh okay",                          // For the love meter
-            startText: "I miss you",                                   // Text before the percentage
-            nextBtn: "like a lot"                                         // Text for the next button
+            text: "sama jesteś debil",                          // For the love meter
+            startText: "jak bardzo tęsknisz za kubuszydłem?",                                   // Text before the percentage
+            nextBtn: "ja i tak bardziej"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025 (and the 15th because I didn't make it in time)? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "będziesz moją walentynką 14 lutego 2026 roku (i 15 też bo nie wyrobiłem się na czas)? 🌹", // The big question!
+            yesBtn: "tak",                                             // Text for "Yes" button
+            noBtn: "nie"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "ta jasne",  // Shows when they go past 5000%
+        high: "jak dalej przejedziesz to na pewno nie uwierzę",              // Shows when they go past 1000%
+        normal: "nie wierzę"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "cool cool cool cool cool",
-        message: "come back to Poland we have bobry and kubuszydło",
+        message: "wracaj do Polski mamy bobry, kubuszydło, carbonarke i przejażdżki",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
